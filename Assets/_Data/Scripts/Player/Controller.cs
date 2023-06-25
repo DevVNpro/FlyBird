@@ -12,10 +12,20 @@ public class Controller : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && birdIsAlive){
-            player.velocity = new Vector3(0,2,0) * speed;   
-        }
+        this.CheckBirdFall();
+        this.Moverment();
 
+    }
+    private void Moverment()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && birdIsAlive)
+        {
+            player.velocity = new Vector3(0, 2, 0) * speed;
+        }
+    }
+    private void CheckBirdFall()
+    {
+        if (transform.position.y < -12f) Logic.GameOver();
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
