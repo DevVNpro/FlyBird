@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class UIMenu : MonoBehaviour
+public class MenuManager : MonoBehaviour
 {
     [SerializeField] protected Button start;
     [SerializeField] protected Button quit;

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class UIGameOver : MonoBehaviour
+public class GameOverManager : MonoBehaviour
 {
     [SerializeField]  protected Button restartGame;
     [SerializeField] protected Button backToMenu;
