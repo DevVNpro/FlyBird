@@ -6,7 +6,7 @@ public class EnemySpawner : MonoBehaviour
 {
     public GameObject Top_Box;
     private float time = 0;
-    private float timeLimid = 1.4f;
+    private float timeLimid = 1.8f;
     public float hightOffset = 7;
 
     void Update()
