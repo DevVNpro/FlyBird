@@ -15,7 +15,6 @@ public class SliderMusic : MonoBehaviour
 
     private void OnDestroy()
     {
-  
         savedSliderThemeValue = sliderTheme.value;
         savedSliderVFXValue = sliderVFX.value;
     }

@@ -16,7 +16,7 @@ public class SoundManager : MonoBehaviour
     {
         if (SoundManager.Instance != null)
         {
-            Destroy(gameObject); // Hủy đối tượng hiện tại nếu đã có Sound Manager tồn tại
+            Destroy(gameObject); 
             return;
         }
 

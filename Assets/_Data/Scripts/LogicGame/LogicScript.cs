@@ -46,5 +46,6 @@ public class LogicScript : MonoBehaviour
     {
         SaveScore(0);
     }
+    
 
 }
